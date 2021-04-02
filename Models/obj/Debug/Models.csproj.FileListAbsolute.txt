@@ -1,0 +1,12 @@
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\Models.dll.config
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\Models.dll
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\Models.pdb
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\EntityFramework.dll
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\EntityFramework.xml
+E:\Kì 7\ASP.NET\Project\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.csprojAssemblyReference.cache
+E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.csproj.CopyComplete
+E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.dll
+E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.pdb
