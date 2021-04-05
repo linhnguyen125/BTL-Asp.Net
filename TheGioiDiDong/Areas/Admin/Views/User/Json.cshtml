@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Json";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Json</h2>
+
+<script type="text/javascript">
+    var universities = '{"name": "Đại học giao thông vận tải", "Age": "70", "moreInfo": ["Khoi ky thuat", 15, { "fullName": "Van Linh", "add": "Ha Noi" }]}'
+    var obj = JSON.parse(universities)
+    console.log(obj.moreInfo)
+    //obj.neme = "Khoa CNTT"
+    //console.log(obj)
+    //var str = JSON.stringify(boj)
+    //console.log(obj)
+</script>
+
+

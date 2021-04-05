@@ -1,4 +1,4 @@
-namespace Models.EF
+﻿namespace Models.EF
 {
     using System;
     using System.Collections.Generic;
@@ -12,25 +12,38 @@ namespace Models.EF
         public long ID { get; set; }
 
         [StringLength(255)]
+        [Required]
+        [Display(Name = "username")]
         public string Username { get; set; }
 
         [StringLength(255)]
+        [Required]
+        [Display(Name = "password")]
         public string Password { get; set; }
 
         [StringLength(255)]
+        [Required]
+        [Display(Name = "fullname")]
         public string Name { get; set; }
 
         [StringLength(255)]
+        [Required]
+        [Display(Name = "address")]
         public string Address { get; set; }
 
         [StringLength(255)]
+        [Required]
+        [Display(Name = "phone number")]
         public string Phone { get; set; }
 
         [StringLength(255)]
+        [Display(Name = "email")]
+        [Required]
         public string Email { get; set; }
 
         public DateTime? CreatedDate { get; set; }
 
-        public bool? Status { get; set; }
+        [Display(Name = "status")]
+        public bool Status { get; set; }
     }
 }

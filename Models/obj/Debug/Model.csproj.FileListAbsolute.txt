@@ -10,3 +10,15 @@ E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Model.csproj.CoreCompileInputs.cache
 E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Model.csproj.CopyComplete
 E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.dll
 E:\Kì 7\ASP.NET\Project\Models\obj\Debug\Models.pdb
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\Models.dll.config
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\Models.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\Models.pdb
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\EntityFramework.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\EntityFramework.xml
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Model.csprojAssemblyReference.cache
+E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Model.csproj.CopyComplete
+E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Models.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Models.pdb

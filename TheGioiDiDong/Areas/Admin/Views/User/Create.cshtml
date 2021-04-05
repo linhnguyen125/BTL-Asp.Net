@@ -1,0 +1,185 @@
+﻿@model Models.EF.User
+
+@{
+    ViewBag.Title = "CreateForm";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="nk-content ">
+    <div class="container-fluid">
+        <div class="nk-content-inner">
+            <div class="nk-content-body">
+                <div class="components-preview wide-md mx-auto">
+                    <div class="nk-block-head nk-block-head-lg wide-sm">
+                        <div class="nk-block-head-content">
+                            <div class="nk-block-head-sub">
+                                <a class="back-to"
+                                   href="Admin/User/Index">
+                                    <em class="icon ni ni-arrow-left"></em><span>Back</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- .nk-block-head -->
+                    <div class="nk-block nk-block-lg">
+                        <div class="card card-preview">
+                            <div class="card-inner">
+                                <div class="preview-block">
+                                    <span class="preview-title-lg overline-title">Add Customer</span>
+                                    @using (Html.BeginForm("Create", "User", FormMethod.Post))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        <div class="row gy-4">
+                                            <div class="col-lg-6 col-sm-6">
+                                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-user"></em>
+                                                        </div>
+                                                        @Html.TextBoxFor(model => model.Username, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "username" })
+                                                        <label class="form-label-outlined" for="username">
+                                                            Username
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-user"></em>
+                                                        </div>
+                                                        @Html.PasswordFor(model => model.Password, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "password" })
+                                                        <label class="form-label-outlined" for="password">
+                                                            Password
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-user"></em>
+                                                        </div>
+                                                        @Html.TextBoxFor(model => model.Name, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "full-name" })
+                                                        <label class="form-label-outlined" for="full-name">
+                                                            Full name
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-reports-alt"></em>
+                                                        </div>
+                                                        @Html.TextBoxFor(model => model.Address, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "address" })
+                                                        <label class="form-label-outlined" for="address">
+                                                            Address
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-call"></em>
+                                                        </div>
+                                                        @Html.TextBoxFor(model => model.Phone, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "phone" })
+                                                        <label class="form-label-outlined" for="phone">
+                                                            Phone
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-icon form-icon-right">
+                                                            <em class="icon ni ni-mail"></em>
+                                                        </div>
+                                                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @class = "form-control form-control-xl form-control-outlined", @id = "email" })
+                                                        <label class="form-label-outlined" for="email">
+                                                            Email
+                                                        </label>
+                                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-control-wrap">
+                                                        <div class="form-check">
+                                                            <label class="form-check-label" for="status">
+                                                                Status
+                                                            </label>
+                                                            @Html.CheckBoxFor(model => model.Status, new { @class = "form-check-input ml-3", @id = "status" })
+                                                        </div>
+                                                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            @*<div class="col-lg-6 col-sm-6">
+                    <div class="preview-block">
+                        <span class="preview-title-lg overline-title">Sex</span>
+                        <div class="g-4 align-center flex-wrap">
+                            <div class="g">
+                                <div class="custom-control custom-control-sm custom-radio">
+                                    <input type="radio" class="custom-control-input"
+                                           name="sex" id="male" value="male">
+                                    <label class="custom-control-label"
+                                           for="male">Male</label>
+                                </div>
+                            </div>
+                            <div class="g">
+                                <div class="custom-control custom-control-sm custom-radio">
+                                    <input type="radio" class="custom-control-input"
+                                           name="sex" id="female" value="female">
+                                    <label class="custom-control-label"
+                                           for="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="g">
+                                <div class="custom-control custom-control-sm custom-radio">
+                                    <input type="radio" class="custom-control-input"
+                                           name="sex" id="unknown" value="unknown">
+                                    <label class="custom-control-label"
+                                           for="unknown">Unknown</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-lg btn-primary">Create</button>
+                                            </div>
+
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div><!-- .card-preview -->
+                    </div><!-- .nk-block -->
+                </div><!-- .components-preview -->
+            </div>
+        </div>
+    </div>
+</div>
+
