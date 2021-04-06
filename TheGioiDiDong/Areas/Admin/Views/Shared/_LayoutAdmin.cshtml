@@ -15,6 +15,7 @@
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="~/Asset/Admin/css/dashlite.css?ver=2.2.0">
     <link id="skin-default" rel="stylesheet" href="~/Asset/Admin/css/theme.css?ver=2.2.0">
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
 </head>
 
 <body class="nk-body bg-lighter npc-general has-sidebar ">
@@ -59,7 +60,7 @@
                                     </a>
                                 </li><!-- .nk-menu-item -->
                                 <li class="nk-menu-item">
-                                    <a href="Admin/User/Index" class="nk-menu-link">
+                                    <a href="@Url.Action("Index", "User")" class="nk-menu-link">
                                         <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
                                         <span class="nk-menu-text">Customers</span>
                                     </a>
@@ -378,7 +379,7 @@
 
                 <!-- content -->
                 
-                @RenderBody();
+                @RenderBody()
 
                 <!-- content  -->
                 <!-- footer -->

@@ -170,3 +170,7 @@ E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\obj\Debug\TheGioiDiDong.csproj.CoreCo
 E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\obj\Debug\TheGioiDiDong.csproj.CopyComplete
 E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\obj\Debug\TheGioiDiDong.dll
 E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\obj\Debug\TheGioiDiDong.pdb
+E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\bin\PagedList.dll
+E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\bin\PagedList.Mvc.dll
+E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\bin\PagedList.xml
+E:\Kì 7\ASP.NET\Project\BTL\TheGioiDiDong\bin\PagedList.Mvc.xml

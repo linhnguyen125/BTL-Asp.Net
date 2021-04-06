@@ -22,3 +22,7 @@ E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Model.csproj.CoreCompileInputs.cac
 E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Model.csproj.CopyComplete
 E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Models.dll
 E:\Kì 7\ASP.NET\Project\BTL\Models\obj\Debug\Models.pdb
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.Mvc.dll
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.xml
+E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.Mvc.xml
