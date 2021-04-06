@@ -26,3 +26,19 @@ E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.dll
 E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.Mvc.dll
 E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.xml
 E:\Kì 7\ASP.NET\Project\BTL\Models\bin\Debug\PagedList.Mvc.xml
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\Models.dll.config
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\Models.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\Models.pdb
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\EntityFramework.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\PagedList.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\PagedList.Mvc.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\EntityFramework.xml
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\PagedList.xml
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\bin\Debug\PagedList.Mvc.xml
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\obj\Debug\Model.csprojAssemblyReference.cache
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\obj\Debug\Model.csproj.CopyComplete
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\obj\Debug\Models.dll
+D:\LAMWORKSPACE\UTC\ASPNET\BaiTapLon\BTL\Models\obj\Debug\Models.pdb
